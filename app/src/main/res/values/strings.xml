@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CustomDialogBox</string>
+    <string name="login_dialog_box">Login Dialog BOX</string>
+</resources>

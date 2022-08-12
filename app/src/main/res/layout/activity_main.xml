@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_dialog_box"/>
+
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="375dp"
+        android:layout_height="39dp"
+        android:text="Email"
+        android:textSize="30dp"/>
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="13dp"
+        android:layout_below="@+id/tvRg"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"/>
+
+
+    <RadioButton
+        android:id="@+id/rb1"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="Male" />
+
+    <RadioButton
+        android:id="@+id/rb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="Female" />
+
+    <RadioButton
+        android:id="@+id/rb3"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="Other" />
+
+    <EditText
+        android:id="@+id/etother"
+        android:layout_width="match_parent"
+        android:inputType="textPersonName"
+        android:hint="Enter Email"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
